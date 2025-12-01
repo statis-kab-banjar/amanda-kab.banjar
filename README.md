@@ -92,20 +92,6 @@ Berisi seluruh kode HTML, CSS, dan JavaScript aplikasi.
 
 Aplikasi ini tidak membutuhkan file tambahan lain untuk berjalan.
 
-⚙️ Cara Menggunakan
-
-Download atau clone repository ini.
-
-Buka file HTML menggunakan browser modern (Chrome/Edge/Firefox).
-
-Aplikasi langsung berjalan offline.
-
-Masuk menggunakan:
-
-Admin → admin / admin123
-
-Pengguna → Tombol "Masuk sebagai Pengguna"
-
 💡 Tujuan Aplikasi
 
 Aplikasi ini dibuat untuk mempermudah:
