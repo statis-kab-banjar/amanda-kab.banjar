@@ -1,4 +1,4 @@
-
+<!doctype html>
 <html lang="id">
 <head>
 <meta charset="utf-8" />
@@ -183,15 +183,19 @@ const MODULES = [
   {key:'alih_media',title:'Alih Media'},
   {key:'penerbitan_izin',title:'Penerbitan Izin'},
   {key:'arsip_vital',title:'Arsip Vital'}
-].map(m=>({...m,fields:[
-  {id:'pencipta_arsip',label:'Pencipta Arsip'},
-  {id:'uraian_arsip',label:'Uraian Arsip'},
-  {id:'tahun',label:'Tahun'},
-  {id:'jumlah_arsip',label:'Jumlah Arsip'},
-  {id:'jumlah_berkas',label:'Jumlah Berkas'},
-  {id:'jumlah_boks',label:'Jumlah Boks'},
-  {id:'link_drive',label:'Tautan Google Drive'}
-]}));
+].map(m=>({
+  ...m,
+  fields:[
+    {id:'pencipta_arsip', label:'Pencipta Arsip'},
+    {id:'uraian_arsip', label:'Uraian Arsip'},
+    {id:'tahun', label:'Tahun'},
+    {id:'jumlah_arsip', label:'Jumlah Arsip'},
+    {id:'jumlah_berkas', label:'Jumlah Berkas'},
+    {id:'jumlah_boks', label:'Jumlah Boks'},
+    {id:'keterangan', label:'Keterangan'},
+    {id:'link_drive', label:'Tautan Google Drive'}
+  ]
+}));
 
 /* ===================== IndexedDB ===================== */
 let db;
